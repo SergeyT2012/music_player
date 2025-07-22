@@ -1,1 +1,1 @@
-python3 run music_player.py
+python3 music_player.py
