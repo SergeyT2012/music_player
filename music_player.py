@@ -84,7 +84,7 @@ class Toplevel1:
         self.TLabel1.configure(text='''TrackName''')
         self.TLabel1.configure(compound='left')
 
-        self.placeholder_image = Image.open("/home/star/workspace/github/SergeyT2012/music_player/Images/placeholder.png")
+        self.placeholder_image = Image.open("Images/placeholder.png")
         self.placeholder_image = self.placeholder_image.resize((149, 141))
         self.placeholder_photo = ImageTk.PhotoImage(self.placeholder_image)
 
